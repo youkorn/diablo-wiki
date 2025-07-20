@@ -1,0 +1,85 @@
+.diablo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 2rem 0;
+}
+
+.diablo-card {
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111;
+  padding: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.diablo-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.diablo-card img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.diablo-card h2 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.diablo-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.diablo-single {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.diablo-single h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.diablo-single img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.diablo-single .description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.diablo-single .skills h2 {
+  margin-bottom: 1rem;
+}
+
+.diablo-single .skill {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.diablo-single .skill img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.diablo-single .skill h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem;
+}
+
+.diablo-single .skill p {
+  font-size: 0.95rem;
+  color: #555;
+}
